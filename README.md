@@ -1,5 +1,5 @@
 # type-in
-A jQuery plugin that types in and out from one text to the next. Allows for multi-colored multi-element text.
+A jQuery plugin that types in from one text to the next. Allows for multi-colored multi-element text.
 
 ##Demo
 [plugins.getdans.info/type-in](http://plugins.getdans.info/type-in)
@@ -53,6 +53,6 @@ You must call type-in on an empty container where you would like the words to ap
 Options     | Definition
 ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
 `textClass` | **(required)**<br>Class of the word containers.<br>The words will appear in the order they are in the DOM.
-`frames`    | Scramble uses `requestAnimationFrame` to go through the possible string.<br>This is the number of frames scramble will go through before finding another random letter from `possible`.<br>`default: 0`
-`startTime` | Delay before scramble starts, in milliseconds.<br>`default: 5000`
-`interval`  | Time between when a word is revealed and when it is scrambled again for the next word to be displayed.<br>`default: 5000`
+`frames`    | type-in uses `requestAnimationFrame` to go through the possible string.<br>This is the number of frames type-in will go through before revealing the next letter.<br>`default: 0`
+`startTime` | Delay before type-in starts, in milliseconds.<br>`default: 5000`
+`interval`  | Time between when a word is revealed and when it is hidden again for the next word to be displayed.<br>`default: 5000`
