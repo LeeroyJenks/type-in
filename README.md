@@ -1,16 +1,16 @@
 # type-in
 A jQuery plugin that types in from one text to the next. Allows for multi-colored multi-element text.
 
-##Demo
+## Demo
 [plugins.getdans.info/type-in](http://plugins.getdans.info/type-in)
 
-##Installation
+## Installation
 Download from GitHub
 
-###Requirements
+### Requirements
 jQuery
 
-###Use
+### Use
 ```html
 <script>
     $(document).ready(function(){
@@ -20,11 +20,11 @@ jQuery
     });
 </script>
 ```
-###Description
+### Description
 
 You must call type-in on an empty container where you would like the words to appear. You **MUST** define a textClass in order for type-in to work. Each text must be within a `<span>` element within the container with the textClass. This allows for multi-colored phrases to be used. For example, if you want a phrase with two different colors, you can use<br>`<div class="textClass"><span>Phrase color one </span><span>phrase color two.</span></div>`.
 
-###Example
+### Example
 
 ```html
 <div class="display-word"></div>
@@ -48,7 +48,7 @@ You must call type-in on an empty container where you would like the words to ap
 </script>
 ```
 
-###Options
+### Options
 
 Options     | Definition
 ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
